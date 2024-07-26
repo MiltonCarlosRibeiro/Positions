@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Posições no CSS</title>
+  </head>
+
+  <body>
+    <!--STATIC-->
+    <div>Static</div>
+    <div class="sticky">Sticky</div>
+    <div>Static</div>
+    <div class="relative relativa-alterada">
+      Relative
+      <!--div ABSOLUTE dentro da relativa forma correta de utilizar -->
+      <div class="absolute">Absolute</div>
+    </div>
+    <div>Static</div>
+
+    <p>Este é meu paragráfo</p>
+
+    <!--Sticky>>>>sempre vai correr quando scrollar mais vai voltar a sua posição original, respeitando o flow da página-->
+    <div class="sticky">Sticky</div>
+    <div>Static</div>
+    <!--RELATIVE-->
+    <div class="relative">
+      Relative
+      <!--div ABSOLUTE dentro da relativa assume a relativa como pai-->
+      <div class="absolute">Absolute</div>
+    </div>
+
+    <!--ABSOLUTE vai buscar o ponto zero da pagina como referencia -->
+    <div class="absolute">Absolute</div>
+
+    <!--FIXED sempre vai estar relacionado ao scroll-->
+    <div class="fixed">Fixed</div>
+  </body>
+</html>

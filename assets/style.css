@@ -1,0 +1,49 @@
+div {
+  height: 50px;
+  background-color: #ccc;
+  border: 1px solid #222;
+  padding: 10px;
+}
+/*css relative*/
+.relative {
+  background-color: rgb(11, 134, 104);
+  position: relative;
+  color: white;
+}
+/*css relativa alterada*/
+.relativa-alterada {
+  top: 20px;
+  left: 20px;
+  width: 50%;
+  height: 150px;
+}
+/*css absolute*/
+.absolute {
+  height: 25px;
+  width: 70px;
+  background-color: rgb(206, 235, 45);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/*css fixed*/
+html {
+  padding-bottom: 1000px;
+}
+.fixed {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 145, 0);
+  position: fixed;
+  top: 10px;
+  left: 100px;
+  opacity: 50%;
+}
+/*css sticky*/
+.sticky {
+  height: 50px;
+  width: 100px;
+  top: 10px;
+  background-color: rgb(106, 224, 38);
+  position: sticky;
+}
